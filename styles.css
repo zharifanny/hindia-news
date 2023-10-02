@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 :root {
-  --scroll-speed: 17s;
-  --positive-color: #03e610;
-  --negative-color: #fe0000;
+  --scroll-speed: 2s;
+  --positive-color: #717171;
+  /* --positive-color: #00ff00; */
+  --negative-color: #ffffff;
   --size: 2rem;
 }
 
@@ -39,7 +40,7 @@ html {
   display: inline-block;
   white-space: nowrap;
   display: flex;
-  gap: 4rem;
+  gap: 1rem;
   transform: translateX(100%);
   /* border: 1px solid orangered; */
 }
